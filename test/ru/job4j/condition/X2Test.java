@@ -29,12 +29,12 @@ public class X2Test {
         int c = 1;
         int x = 1;
         /* ожидаемое значение. Это всегда одна переменная. */
-        int expected2 = 3;
+        int expected = 3;
         /* вызов метода, который хотим проверить. */
         /* Результат вычисления. Это всегда одна переменная. */
-        int rsl2 = X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         /* сравнение полученного значения с ожидаемым */
-        Assert.assertEquals(expected2, rsl2);
+        Assert.assertEquals(expected, rsl);
     }
 
     @Test
@@ -45,12 +45,12 @@ public class X2Test {
         int c = 1;
         int x = 1;
         /* ожидаемое значение. Это всегда одна переменная. */
-        int expected3 = 2;
+        int expected = 2;
         /* вызов метода, который хотим проверить. */
         /* Результат вычисления. Это всегда одна переменная. */
-        int rsl3 = X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         /* сравнение полученного значения с ожидаемым */
-        Assert.assertEquals(expected3, rsl3);
+        Assert.assertEquals(expected, rsl);
     }
 
     @Test
@@ -61,12 +61,12 @@ public class X2Test {
         int c = 0;
         int x = 1;
         /* ожидаемое значение. Это всегда одна переменная. */
-        int expected4 = 2;
+        int expected = 2;
         /* вызов метода, который хотим проверить. */
         /* Результат вычисления. Это всегда одна переменная. */
-        int rsl4 = X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         /* сравнение полученного значения с ожидаемым */
-        Assert.assertEquals(expected4, rsl4);
+        Assert.assertEquals(expected, rsl);
     }
 
     @Test
@@ -77,11 +77,11 @@ public class X2Test {
         int c = 1;
         int x = 0;
         /* ожидаемое значение. Это всегда одна переменная. */
-        int expected5 = 1;
+        int expected = 1;
         /* вызов метода, который хотим проверить. */
         /* Результат вычисления. Это всегда одна переменная. */
-        int rsl5 = X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         /* сравнение полученного значения с ожидаемым */
-        Assert.assertEquals(expected5, rsl5);
+        Assert.assertEquals(expected, rsl);
     }
 }
